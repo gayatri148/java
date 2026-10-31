@@ -1,0 +1,65 @@
+1. What is the Java Collections Framework? 
+The Collections Framework is a set of classes and interfaces used to store and manipulate groups of 
+objects. 
+2. Why do we use collections?  
+Collections make it easier to store, search, sort, and process multiple objects. 
+3. What is an ArrayList?  ArrayList is a resizable array that stores elements dynamically. 
+4. What is a user-defined class? 
+A class created by the programmer is called a user-defined class. Here, Student is a user-defined class. 
+5. What is the difference between Comparable and Comparator? 
+Comparable Comparator 
+Defines natural sorting Defines custom sorting 
+Uses compareTo() Uses compare() 
+Implemented by Student Separate comparator class 
+Roll number in this program Name in this program 
+ 
+6. What is an Iterator? An Iterator is used to traverse elements of a collection one by one. 
+7. What is a Map?  A Map stores data in key-value pairs. 
+8. What is HashMap?  
+HashMap is an implementation of the Map interface that stores key-value pairs. 
+9. What is RandomAccess? 
+RandomAccess is a marker interface indicating that a list supports efficient direct access using an index. 
+10. Does ArrayList implement RandomAccess?  Yes. 
+11. What is the difference between ArrayList and LinkedList? 
+ArrayList LinkedList 
+Uses dynamic array Uses linked nodes 
+Faster random access Slower random access 
+Good for accessing elements Good for insertion/deletion 
+Implements RandomAccess Does not implement RandomAccess 
+ 
+12. What is a String in Java?  A String is an object representing a sequence of characters. 
+13. Is String mutable or immutable?  String is immutable. 
+14. What does getChars() do?  
+It copies selected characters from a String into a character array. 
+15. What does toCharArray() do?  It converts a String into a character array. 
+16. What does compareTo() return when two Strings are equal? 0 
+17. What is StringBuffer?  class used to create a mutable sequence of characters. 
+18.What does length() return? It returns the number of characters currently present in the buffer. 
+19. What does charAt() do?   It returns the character at a specified index. 
+20. What does setCharAt() do?  It changes the character at a specified index. 
+21. What does setLength() do?  It changes the length of the StringBuffer. 
+22. What does append() do?   It adds data at the end of the buffer. 
+23. What does insert() do?   It inserts data at a specified position. 
+24. What does reverse() do?   It reverses the characters in the buffer. 
+25. What does delete(start, end) do?  It deletes characters from start to end - 1. 
+26. What does deleteCharAt() do?   It deletes one character at the specified index. 
+27. What does replace() do in StringBuffer? It replaces characters in the specified range. 
+28. What does toString() do?  It converts a StringBuffer into a String. 
+29. What is Swing?    Swing is a Java GUI toolkit used to create desktop applications. 
+30. What is JFrame?   JFrame represents the main window of a Swing application. 
+31. What is JButton?   JButton is a GUI component used to create a button. 
+32. What is JLabel?    JLabel is used to display text or an image. 
+33. What is event handling? 
+Event handling is the process of responding to actions performed by the user, such as clicking a button. 
+34. What is an ActionEvent? 
+An ActionEvent is generated when an action such as a button click occurs. 
+35. What is ActionListener?  ActionListener is an interface used to handle action events. 
+36. What is JDBC?    JDBC stands for Java Database Connectivity. 
+37. Why is JDBC used?   It allows Java programs to connect to and interact with databases. 
+38. What is a JDBC driver?  A JDBC driver allows Java to communicate with a particular database. 
+39. What is JSP?    JavaServer Pages. It is used to create dynamic web pages using Java. 
+40. What is the difference between JSP and Java? 
+Java is a programming language, while JSP is a server-side web technology that allows Java-based dynamic 
+web content. 
+41. What is the role of Tomcat? 
+Apache Tomcat is a web server and servlet container that runs JSP and Servlet applications. 
